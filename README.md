@@ -48,6 +48,8 @@ The interface will show:
 
 Select the packages you want to remove and click the button. The application will generate the appropriate `sudo pacman -R` command for the selected packages.
 
+**YOU MUST RUN THE COMMAND YOURSELF, THIS PACKAGE DOES NOT REMOVE ANY PACKAGES. THIS PACKAGE JUST PROVIDES A UI TO EASIER EXPLORE UNINSTALLABLE PACKAGES**
+
 ## How It Works
 
 Pacclean uses `pacman -Qent` to list explicitly installed packages and `pacman -Qi` to fetch detailed information about each package. It presents this information in a user-friendly interface, making it easier to manage your system packages.
